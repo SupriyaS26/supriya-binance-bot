@@ -1,0 +1,4 @@
+{"time": "2025-08-09 10:33:11,690", "level": "INFO", "message": "place_market_order called: BTCUSDT BUY 0.001", "module": "binance_client"}
+{"time": "2025-08-09 10:33:11,699", "level": "INFO", "message": "Market order response: {'status': 'simulated', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001}", "module": "market_orders"}
+{"time": "2025-08-09 14:38:12,874", "level": "INFO", "message": "place_market_order called: BTCUSDT BUY 0.001", "module": "binance_client"}
+{"time": "2025-08-09 14:38:12,875", "level": "INFO", "message": "Market order response: {'status': 'simulated', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001}", "module": "market_orders"}
