@@ -1,4 +1,2 @@
-{"time": "2025-08-09 10:33:11,690", "level": "INFO", "message": "place_market_order called: BTCUSDT BUY 0.001", "module": "binance_client"}
-{"time": "2025-08-09 10:33:11,699", "level": "INFO", "message": "Market order response: {'status': 'simulated', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001}", "module": "market_orders"}
-{"time": "2025-08-09 14:38:12,874", "level": "INFO", "message": "place_market_order called: BTCUSDT BUY 0.001", "module": "binance_client"}
-{"time": "2025-08-09 14:38:12,875", "level": "INFO", "message": "Market order response: {'status': 'simulated', 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001}", "module": "market_orders"}
+{"time": "2025-08-09 17:48:31,493", "level": "INFO", "message": "Limit order response: {'dry_run': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.001, 'price': 30000.0, 'type': 'LIMIT'}", "module": "limit_orders"}
+{"time": "2025-08-09 17:48:37,670", "level": "INFO", "message": "Stop-limit order response: {'dry_run': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001, 'stopPrice': 30500.0, 'price': 30000.0, 'type': 'STOP_MARKET'}", "module": "limit_orders"}

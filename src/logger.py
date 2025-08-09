@@ -1,7 +1,7 @@
 import logging, json, os
 from logging.handlers import RotatingFileHandler
 
-# bot.log will be in the project root (one folder up from src/)
+
 LOG_PATH = os.path.join(os.path.dirname(__file__), '..', 'bot.log')
 
 class JsonFormatter(logging.Formatter):
@@ -23,14 +23,14 @@ def get_logger(name=__name__):
 
     logger.setLevel(logging.DEBUG)
 
-    # File handler (JSON logs)
+
     fh = RotatingFileHandler(LOG_PATH, maxBytes=5_000_000, backupCount=2)
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(JsonFormatter())
 
-    # Console handler (JSON logs too)
+
     ch = logging.StreamHandler()
-    ch.setLevel(logging.DEBUG)  # Show all logs on console too
+    ch.setLevel(logging.DEBUG)  
     ch.setFormatter(JsonFormatter())
 
     logger.addHandler(fh)
